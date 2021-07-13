@@ -1,3 +1,93 @@
-body{
-    background: #181719;
+body {
+  background: #181719;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+}
+
+/* ==================================== nave Menu ====================================*/
+
+.nav-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nave-logo {
+  font-family: "Crimson Pro", serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  padding: 10px 15px;
+  border: 0.1rem #ffffff solid;
+  border-radius: 0.1rem;
+  text-decoration: none;
+}
+
+.nave-logo:hover {
+  color: #fff;
+  box-shadow: 0 0 7px #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+}
+
+.nave-logo-container {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.menu-items {
+  flex-grow: 1;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.menu-items li a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.menu-items li {
+  padding-bottom: 0.1rem;
+}
+
+.menu-items li a:hover {
+  border-bottom: 0.12rem #ffffff solid;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff;
+}
+
+.menu-item-active a {
+  font-weight: bold !important;
+  border-bottom: none !important;
+  text-shadow: 0 0 7px #fff !important;  
 }
