@@ -1,0 +1,19 @@
+{
+  "name": "interior-consultant",
+  "version": "1.0.0",
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanDevWork/Interior-Consultant.git"
+  },
+  "author": "Hassan Ba Zuahir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanDevWork/Interior-Consultant/issues"
+  },
+  "homepage": "https://github.com/HassanDevWork/Interior-Consultant#readme"
+}
