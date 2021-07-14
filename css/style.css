@@ -378,3 +378,21 @@ a {
     text-shadow: 0 0 7px #fff !important;
   }
 }
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: capitalize;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #bdbdbd;
+}
