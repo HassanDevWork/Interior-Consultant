@@ -11,21 +11,78 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <div class="container">
       <nav class="nav-menu">
         <div class="nave-logo-container">
           <a href="#" class="nave-logo">This Interior</a>
         </div>
+        <div id="hambergermenu">
+          <span class="material-icons-outlined"> menu </span>
+        </div>
         <ul class="menu-items">
           <li class="menu-item-active"><a href="#">Home</a></li>
           <li><a href="#">Collection</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
-        </div>
+        </ul>
       </nav>
+      <div class="main-content container">
+        <div class="content-section1">
+          <h1>Modern interior</h1>
+          <p>
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a href="#"
+            ><span>Read more</span>
+            <i class="material-icons-outlined"> arrow_right_alt </i></a
+          >
+        </div>
+        <div class="content-section2">
+          <figure class="main-img">
+            <img src="./img/photo1.png" alt="photo1" />
+          </figure>
+          <div class="main-info">
+            <div class="main-data">
+              <figure>
+                <img src="./img/photo2.png" alt="photo2" />
+              </figure>
+              <h3 class="main-name">Aliza Webber</h3>
+              <span class="main-jop">Interior designer</span>
+            </div>
+            <h2 class="main-designed">
+              Designed in 2020 by <br />Aliza Webber
+            </h2>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="menu-small">
+      <div id="close-icon">
+        <span class="material-icons-outlined"> close </span>
+      </div>
+      <ul class="menu-items-small">
+        <li class="menu-item-small-active"><a href="#">Home</a></li>
+        <li><a href="#">Collection</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <footer>
+      <span>Created by Hassan Ba Zuhair - HassanDevWork&copy;</span>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
